@@ -1,7 +1,7 @@
 # Plant_IoT
 This is my College Minor Project, so it is not perfect and need some work to be done.
 
-It is an IoT project which uses Arduino UNO, Soil Moisture sensor YL-69 and Temperature sensor LM-35.
+It is an IoT project which uses Arduino UNO, Soil Moisture sensor YL-69 and DHT11 Air Moisture and Temperature sensor.
 
 The idea for this project was to help Plant owners who are too busy but love their plants, or some stoners who loves their home grown Weed. Just kidding.
 
