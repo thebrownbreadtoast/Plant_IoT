@@ -7,10 +7,9 @@ The idea for this project was to help Plant owners who are too busy but love the
 
 Files in Project:
 
-    main.py - It is the main file which fetches data from Arduino UNO and send tweets to user.
-    tweet_cnct.py - This file is Twitter API setup file, so that user don't have to re-enter Keys or Tokens again, and executes twitter operations.
-    arduino_cnct.ino - This is Arduino UNO Sketch which connects with sensors.
-    sqlite_cnct.py - This creates a local Database and establishes a connection.
+    main.py - It is the main file which fetches data from Arduino UNO and calls Operations on Database.
+    project_arduino.ino - This is Arduino UNO Sketch which connects with sensors.
+    mysql_cnct.py - This is used to connect to a MySQL Database and establishes a connection.
     graph.py - This uses Pandas and Matplotlib.pyplot to connect with Database manipulates Dataframe and Plots a graph.
 
 Sorry for horrible Documentation, just a noob programmer.
