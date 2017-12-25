@@ -1,1 +1,16 @@
 # Plant_IoT
+This is my College Minor Project, so it is not perfect and need some work to be done.
+
+It is an IoT project which uses Arduino UNO, Soil Moisture sensor YL-69 and Temperature sensor LM-35.
+
+The idea for this project was to help Plant owners who are too busy but love their plants, or some stoners who loves their home grown Weed. Just kidding.
+
+Files in Project:
+
+    main.py - It is the main file which fetches data from Arduino UNO and send tweets to user.
+    tweet_cnct.py - This file is Twitter API setup file, so that user don't have to re-enter Keys or Tokens again, and executes twitter operations.
+    arduino_cnct.ino - This is Arduino UNO Sketch which connects with sensors.
+    sqlite_cnct.py - This creates a local Database and establishes a connection.
+    graph.py - This uses Pandas and Matplotlib.pyplot to connect with Database manipulates Dataframe and Plots a graph.
+
+Sorry for horrible Documentation, just a noob programmer.
